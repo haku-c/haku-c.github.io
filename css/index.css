@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Raleway:wght@500&display=swap');
 
-body {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 18px;
+* {
+  margin: 0;
 }
 
-#about {
-  width: 100%;
+.about-container {
   max-width: 550px;
   margin: 128px auto 0 auto;
-  /* margin-top: 128px; */
+  height: 100vh;
+}
+
+.about-container p {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 22px;
+  color: #948e8e;
+  line-height: 1.8;
+  margin-bottom: 15px;
 }
 
 .link-icons {
@@ -28,4 +34,19 @@ body {
 
 .fa-linkedin:hover {
   color: #5861cc
+}
+
+#notes {
+  height: 100vh;
+}
+
+#animations {
+  height: 100vh;
+  color: #f1f1f1;
+  background-color: #b8abab;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 76px;
 }
