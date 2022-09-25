@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+body {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 18px;
+}
+
+#about {
+  width: 100%;
+  max-width: 550px;
+  margin: 128px auto 0 auto;
+  /* margin-top: 128px; */
+}
+
+.link-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  padding: .5em .25em 0em .25em;
+  color: #b8abab;
+}
+
+.fa-square-github:hover {
+  color: yellow
+}
+
+.fa-linkedin:hover {
+  color: #5861cc
+}
