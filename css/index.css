@@ -40,13 +40,23 @@
   height: 100vh;
 }
 
-#animations {
+#projects {
   height: 100vh;
   color: #f1f1f1;
   background-color: #b8abab;
+  display: flex;
+  justify-content: center;
 }
 
-h1 {
+#notes {
+  height: 100vh;
+  color: #948e8e;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-container p,
+.notes-container p {
   font-family: 'Raleway', sans-serif;
   font-size: 76px;
 }
