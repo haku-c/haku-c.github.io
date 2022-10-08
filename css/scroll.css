@@ -7,4 +7,12 @@
   flex-direction: row;
 }
 
+.source {
+  width: 60%;
+}
+
+.quote {
+  width: 40%;
+}
+
 /*# sourceMappingURL=scroll.css.map */
