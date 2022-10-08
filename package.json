@@ -1,0 +1,10 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "scss-watch": "sass --watch scss/:css/ "
+  },
+  "author": "Huy Nguyen",
+  "license": "ISC"
+}
