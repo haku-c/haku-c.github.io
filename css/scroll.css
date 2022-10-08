@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
 }
@@ -5,14 +6,21 @@
 .quote-block {
   display: flex;
   flex-direction: row;
+  padding: 8% 10% 8% 10%;
+  min-height: 70vh;
 }
 
 .source {
   width: 60%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
 }
 
 .quote {
   width: 40%;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=scroll.css.map */
