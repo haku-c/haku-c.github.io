@@ -13,8 +13,15 @@ $pale-cyan-blue: #8ed1fc;
 $vivid-cyan-blue: #0693e3;
 $vivid-purple: #9b51e0;
 
-* {
-  margin: 0
+:root {
+  --text-color: #cf2e2e;
+}
+
+body {
+
+  margin: 0;
+  background-color: lighten($luminous-vivid-amber, 25%);
+  color: var(--text-color);
 }
 
 .quote-block {
@@ -32,24 +39,34 @@ $vivid-purple: #9b51e0;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-right: 30px;
 }
 
 .source p {
-  padding: 30px 0px 30px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
-.quote {
+@mixin quote-text {
   width: 40%;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   display: flex;
-  flex-direction: column;
   line-height: 1.4;
+}
+
+.quote {
+  @include quote-text;
+  flex-direction: column;
+}
+
+.quote-middlemarch {
+  @include quote-text;
+  align-items: center;
 }
 
 .quote p {
   border-width: 2px 0 0 0;
-  border-color: #df3320;
+  border-color: --text-color;
   border-style: solid;
   padding: 40px 0px 40px 0px;
 }

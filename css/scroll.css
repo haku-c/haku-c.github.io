@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-* {
+
+:root {
+  --text-color: #cf2e2e;
+}
+
+body {
   margin: 0;
+  background-color: #ffdc7d;
+  color: var(--text-color);
 }
 
 .quote-block {
@@ -18,10 +25,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-right: 30px;
 }
 
 .source p {
-  padding: 30px 0px 30px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .quote {
@@ -29,13 +37,22 @@
   font-family: "Inter", sans-serif;
   font-size: 18px;
   display: flex;
-  flex-direction: column;
   line-height: 1.4;
+  flex-direction: column;
+}
+
+.quote-middlemarch {
+  width: 40%;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  display: flex;
+  line-height: 1.4;
+  align-items: center;
 }
 
 .quote p {
   border-width: 2px 0 0 0;
-  border-color: #df3320;
+  border-color: var(--text-color);
   border-style: solid;
   padding: 40px 0px 40px 0px;
 }
