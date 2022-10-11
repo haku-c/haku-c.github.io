@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
 :root {
   --text-color: #cf2e2e;
 }
@@ -28,10 +27,6 @@ body {
   margin-right: 30px;
 }
 
-.source p {
-  padding: 20px 0px 20px 0px;
-}
-
 .quote {
   width: 40%;
   font-family: "Inter", sans-serif;
@@ -52,9 +47,10 @@ body {
 
 .quote p {
   border-width: 2px 0 0 0;
-  border-color: var(--text-color);
+  border-color: --text-color;
   border-style: solid;
   padding: 40px 0px 40px 0px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=scroll.css.map */
