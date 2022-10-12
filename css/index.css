@@ -43,20 +43,33 @@
 #projects {
   height: 100vh;
   color: #f1f1f1;
-  background-color: #b8abab;
+  background-color: #635255;
   display: flex;
   justify-content: center;
 }
 
-#notes {
-  height: 100vh;
-  color: #948e8e;
-  display: flex;
-  justify-content: center;
+.projects-container {
+  width: 100%;
 }
 
-.projects-container p,
-.notes-container p {
+.projects-container h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 76px;
+  text-align: center;
+}
+
+.projects-content {
+  margin: 40px 0px 0px 0px;
+  text-align: center;
+  display: grid;
+}
+
+.projects-container a {
+  color: #f1f1f1;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.projects-container a:hover {
+  color: #C0E8F9;
 }
