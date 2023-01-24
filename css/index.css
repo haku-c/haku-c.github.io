@@ -41,30 +41,19 @@
 }
 
 #projects {
-  height: 100vh;
+  height: 40vh;
   color: #f1f1f1;
-  background-color: #635255;
+  background-color: #1A281F;
   display: flex;
   justify-content: center;
 }
 
 .projects-container {
-  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.projects-container h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 76px;
-  text-align: center;
-}
-
-.projects-content {
-  margin: 40px 0px 0px 0px;
-  text-align: center;
-  display: grid;
-}
-
-.projects-container a {
+/* .projects-container a {
   color: #f1f1f1;
   font-size: 32px;
   text-decoration: none;
@@ -72,4 +61,42 @@
 
 .projects-container a:hover {
   color: #C0E8F9;
+} */
+
+.projects-button {
+  text-decoration: none;
+  align-items: center;
+  background-color: #CE7B91;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 32px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 750px;
+  min-height: 60px;
+  min-width: 0px;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.projects-button:hover,
+.projects-button:focus {
+  background-color: #9c2b49;
+  color: #ffffff;
+}
+
+.projects-button:visited {
+  text-decoration: none;
+}
+
+.projects-button:active {
+  text-decoration: none;
 }
